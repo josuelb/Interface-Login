@@ -1,0 +1,72 @@
+@charset "UFT-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #993399, #36b425);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+}
+section{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 80vw;
+}
+
+p{font-size: medium;}
+
+.form_container{padding: 10px;}
+.form_container h2{
+    text-align: center;
+    text-shadow: 1px 1px 0px black;
+}
+form{margin: 10px;}
+form .email_container input, form .password_container input{
+    margin-bottom: 3px;
+    border-radius: 10px;
+    padding: 3px;
+}
+form .email_container input{margin-left: 27px;}
+
+form .btn{
+    display: flex;
+    flex-wrap: flex wrap;
+    justify-content: center;
+    margin: 10px;
+}
+form .btn input{
+    background-color: #993399;
+    color: white;
+    font-size: medium;
+    border-radius: 10px;
+    padding: 3px;
+    width: 100%;
+}
+
+.img_container{display: inline;}
+
+img#cell{
+    display: inline;
+    width: 95%;
+    margin: 10px;
+    border-radius: 10px;
+}
+img#tablet{display: none;}
+img#desktop{display: none;}
+img#grande{display: none;}
